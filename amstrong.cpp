@@ -5,6 +5,7 @@ using namespace std;
 
 bool check_amstrong(int &x, int &n) {
     int y = 0;
+    // create s tring version of it for iteration
     string xx = to_string(x);
     for (int i = 0; i < xx.length(); i++) {
         int temp = boost::lexical_cast<int>(xx[i]);
